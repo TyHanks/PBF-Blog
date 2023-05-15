@@ -1,0 +1,89 @@
+html,
+body,
+header,
+.jarallax {
+  height: 700px;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 650px) {
+  header .jarallax h5 {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+.top-nav-collapse {
+    background-color: #6f7782 !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: transparent !important;
+    }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #dfe2e6!important;
+    }
+}
+h1 {
+    letter-spacing: 8px;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+footer.page-footer {
+    background-color: #6f7782;
+}
+
+@media (max-width: 450px) {
+    .btn-floating {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+body, main {
+    background: linear-gradient(to bottom, #000814, #001d3d);
+    font-family: Poppins;
+}
+
+.jumbotron {
+    color: #001d3d;
+    text-shadow: #ffc300 1px 0 7px;
+}
+
+.navbar-toggler-icon {
+  color:#fff !important;
+}
+
+.page-link {
+  color: whitesmoke;
+}
+
+.jumbotron {
+  background-image: url(/img/rubaitul-azad-ZIPFteu-R8k-unsplash.jpg);
+}
