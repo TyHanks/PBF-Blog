@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/thanksdev/Documents/Projects/pbf-blog/pbf_env"
+VIRTUAL_ENV="/home/thanksdev/Documents/Projects/PBF-Blog/pbf_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

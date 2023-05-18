@@ -1,4 +1,4 @@
-#!/home/thanksdev/Documents/Projects/pbf-blog/pbf_env/bin/python
+#!/home/thanksdev/Documents/Projects/PBF-Blog/pbf_env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
